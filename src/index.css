@@ -1,0 +1,31 @@
+
+:root{
+  /* global */
+  --Padding-left:50px;
+  --Input-background:#363D3B;
+  /*Feature*/
+  --feature-color: #1A201E;
+  --icon-color:#26896B;
+  /* Header */
+  --Header-a-color:#A0A0A0;
+  --Header-color: black;
+  --Header-button:#154B3B;
+
+}
+*{
+  box-sizing: border-box  ;
+}
+body {
+  font-family: 'Open Sans',cursive;
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom,black,#154B3B);
+  color: white;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+

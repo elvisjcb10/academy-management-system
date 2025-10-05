@@ -1,0 +1,76 @@
+
+.logoImg{
+    width: 150px;
+}
+.headerContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px var(--Padding-left);
+}
+.headerLinks{
+    display: flex;
+    gap: 30px;
+    
+}
+.headerButton{
+    background-color: var(--Header-button);
+    color: var(--Header-a-color);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: .8rem;;
+
+}
+.headerLink{
+    color: var(--Header-a-color);
+    text-decoration: none;
+}
+.headerLoginRegister{
+    display: flex;
+    gap: 20px;
+}
+
+.hamburgerMenu {
+    display: none;
+    flex-direction: column;
+    gap: 4px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.hamburgerMenu div {
+    width: 25px;
+    height: 3px;
+    background-color: var(--Header-a-color);
+    transition: all 0.3s ease;
+}
+
+.mobileMenu {
+    display: none;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.mobileMenu.active {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media (max-width: 810px) {
+    .headerLinks,.headerLoginRegister {
+        display: none;
+    }
+    
+    .hamburgerMenu {
+        display: flex;
+    }
+}

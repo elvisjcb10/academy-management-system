@@ -1,0 +1,33 @@
+.Comienza{
+    background-color: var(--Header-button);
+    color: var(--Header-a-color);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1rem;;
+    width: 170px;
+    text-align: center;
+}
+h1{
+    font-size: 4rem;
+    text-align: center;
+    font-weight: bold;
+}
+.containerTitle{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+}
+.containerMain{
+    padding:0px var(--Padding-left) ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: var();
+    flex-wrap: wrap;
+}
+.imgPerson{
+    width: 40%;
+}

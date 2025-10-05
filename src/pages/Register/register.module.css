@@ -1,0 +1,48 @@
+.containerRegister{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerForm{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    min-width: 350px;
+    height: 400px;
+    background: rgba(255, 255, 255, 0.1); /* fondo semitransparente */
+    border-radius: 16px;                  /* bordes redondeados */
+    backdrop-filter: blur(10px);          /* desenfoque del fondo */
+    -webkit-backdrop-filter: blur(10px);  /* soporte para Safari */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* sombra suave */
+    padding: 2rem;
+    gap:20px
+}
+.containerInput{
+    background-color: var(--Input-background);
+    border-radius: 10px;
+    padding: 0px 20px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+input{
+    border:none;
+    width: 80%;
+    padding:10px 0;
+    background-color: var(--Input-background);
+    color: inherit;
+}
+input:focus{
+    outline: none;
+    color: inherit;
+}
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px var(--Input-background) inset; 
+  -webkit-text-fill-color: #fff; 
+  transition: background-color 5000s ease-in-out 0s;
+}
+.Icon{
+    color: black;
+}
