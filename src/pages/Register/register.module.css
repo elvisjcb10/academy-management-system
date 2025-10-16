@@ -10,6 +10,7 @@
     width: 50%;
     min-width: 350px;
     height: 400px;
+    background-image: url("../../assets/register-background.jpg");
     background: rgba(255, 255, 255, 0.1); /* fondo semitransparente */
     border-radius: 16px;                  /* bordes redondeados */
     backdrop-filter: blur(10px);          /* desenfoque del fondo */

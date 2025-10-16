@@ -19,13 +19,7 @@ const Header = () => {
                 <Link className={style.headerLink} to={`/Home`}>Planes</Link>
                 <Link className={style.headerLink} to={`/Home`}>Contactos</Link>
             </div>
-
-            <div className={style.hamburgerMenu} onClick={toggleMenu}>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-
+            <GiHamburgerMenu className={style.Hamburger} onClick={toggleMenu}></GiHamburgerMenu>
             <div className={`${style.mobileMenu} ${isMenuOpen ? style.active : ''}`}>
                 <Link className={style.headerLink} to={`/Home`}>Sobre Nosotros</Link>
                 <Link className={style.headerLink} to={`/Home`}>Planes</Link>

@@ -24,7 +24,8 @@ const Register=()=>{
         console.log(data);
     })
     return(
-        <section className={style.containerRegister} >
+        <section className={style.containerRegister} > 
+            <h2>Crea una nueva Cuenta</h2>
             <form onSubmit={onSubmit} className={style.containerForm} >
                 <div className={style.containerInput}>
                     <input type="text"   placeholder="Nombres"

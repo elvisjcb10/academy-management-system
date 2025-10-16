@@ -10,6 +10,10 @@ const routes=createBrowserRouter([
         element:<MainLayout/>,
         children:[
             {
+                index:true,
+                element:<Home></Home>
+            },
+            {
                 path:"/Home",
                 element:<Home></Home>
             },

@@ -54,6 +54,7 @@
     top: 80px;
     left: 0;
     right: 0;
+    width: 90%;
     background-color: white;
     padding: 20px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -64,8 +65,13 @@
     flex-direction: column;
     gap: 20px;
 }
-
+.Hamburger{
+    display: none;
+}
 @media (max-width: 810px) {
+    .Hamburger{
+        display: flex;
+    }
     .headerLinks,.headerLoginRegister {
         display: none;
     }
